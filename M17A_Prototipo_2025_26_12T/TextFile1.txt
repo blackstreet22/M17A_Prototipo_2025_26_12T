@@ -8,6 +8,6 @@
 
                                            \--Modelo de dados--/
 
-                               Leitores(nleitor,nome,data_nascimento,fotografia,estado)
-                          Livros(nlivro, titulo, autor, isbn, data_aquisição, preco, estado)
-                    Empréstimos(nemprestimo, data_emprestimo, data_devolve, estado, nleitor, nlivro)
+                             Leitores(nleitor,nome,data_nascimento,fotografia,estado)
+                        Livros(nlivro, titulo, autor, isbn, data_aquisição, preco, estado)
+                Empréstimos(nemprestimo, data_emprestimo, data_devolve, estado, nleitor, nlivro)
