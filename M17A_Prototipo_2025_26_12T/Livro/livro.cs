@@ -89,7 +89,7 @@ namespace M17A_Prototipo_2025_26_12T.Livro
 
         public void apagar()
         {
-            bd.ExecutarSql("DELETE From livros Where nlivro=" + nlivro);
+                bd.ExecutarSql("DELETE From livros Where nlivro=" + nlivro);
         }
 
         public void editar()
@@ -215,7 +215,7 @@ namespace M17A_Prototipo_2025_26_12T.Livro
 
         public DataTable procurar(string campo, string texto_pesquisar)
         {
-            string sql = "Select nlivro,titulo, autor,isbn, estado FROM livros where ";
+            string sql = "Select nfilme, titulo, ator, genero, duracao, ano_Lancamento from filmes where ";
             sql += campo + " Like @pesquisa";
 
             List<SqlParameter> parametros = new List<SqlParameter>()
